@@ -13,5 +13,5 @@ Each branch is one fixture; tests point at it through `application-it.yaml`.
 Conventions:
 - One fixture per branch, named after the job type and the variant it exercises.
 - Keep each fixture small and self-contained, so it validates against a clean Developer org.
-- The SFDX job tests validate only; the package tests install into the org and uninstall afterwards.
+- The SFDX job tests validate only; the package tests really install their versions into the org on every run.
 - When a branch's contents change, update the fixture keys in rabit's `application-it.yaml`.
