@@ -11,5 +11,9 @@
   "name": "rabit-e2e-sfdx-fixtures",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "62.0"
+  "sourceApiVersion": "62.0",
+  "packageAliases": {
+    "RabitE2EInstallPkg": "0HogK0000005InVSAU",
+    "RabitE2EInstallPkg@1.0.0-1": "04tgK000000Yn6LQAS"
+  }
 }
