@@ -1,19 +1,17 @@
 {
-  "packageDirectories": [
-    {
-      "versionName": "ver 0.1",
-      "versionNumber": "0.1.0.NEXT",
-      "path": "force-app",
-      "default": true,
-      "package": "RabitE2ECreatePkg",
-      "versionDescription": ""
-    }
-  ],
-  "name": "rabit-e2e-sfdx-fixtures",
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "62.0",
-  "packageAliases": {
-    "RabitE2ECreatePkg": "0Hog50000001b8nCAA"
-  }
+  "packageDirectories" : [ {
+    "path" : "force-app",
+    "default" : true,
+    "package" : "RabitE2ECreatePkg",
+    "versionName" : "ver 0.1",
+    "versionNumber" : "0.1.0.NEXT"
+  } ],
+  "namespace" : "",
+  "sfdcLoginUrl" : "https://login.salesforce.com",
+  "sourceApiVersion" : "62.0",
+  "packageAliases" : {
+    "RabitE2ECreatePkg" : "0Hog50000001b8nCAA",
+    "RabitE2ECreatePkg@1.0.0.1" : "04tg5000000GpD3AAK"
+  },
+  "name" : "rabit-e2e-sfdx-fixtures"
 }
