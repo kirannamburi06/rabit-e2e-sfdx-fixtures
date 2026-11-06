@@ -8,9 +8,10 @@ Each branch is one fixture; tests point at it through `application-it.yaml`.
 | Branch | Layout | Used by |
 |---|---|---|
 | `sfdxvc2sf-source` | SFDX project: `sfdx-project.json` + package directory `force-app` | `SfdxVc2SfStartBuildET` |
+| `upvc2sf-install` | Unlocked package `RabitE2EInstallPkg` (`force-app`) with a promoted version in `packageAliases` | `UpVc2SfStartBuildET` |
 
 Conventions:
 - One fixture per branch, named after the job type and the variant it exercises.
 - Keep each fixture small and self-contained, so it validates against a clean Developer org.
-- Tests only run validate-only (check-only) deploys, so nothing here is ever saved to an org.
+- The SFDX job tests validate only; the package tests install into the org and uninstall afterwards.
 - When a branch's contents change, update the fixture keys in rabit's `application-it.yaml`.
