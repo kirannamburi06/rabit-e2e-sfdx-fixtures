@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <version>67.0</version>
+    <types>
+        <members>RabitE2ESourceClass</members>
+        <members>RabitE2ESourceClassTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>RabitE2ESourceProfile</members>
+        <name>Profile</name>
+    </types>
+</Package>
